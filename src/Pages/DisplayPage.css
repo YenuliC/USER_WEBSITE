@@ -1,0 +1,376 @@
+
+.display-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-main-content {
+    width: 90%;
+    max-width:1200px;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.display-left-section{ 
+    margin-left: 3rem;
+}
+
+.display-textbox {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.display-profile-row{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.display-textbox.profile{
+    width: 15rem;
+    height: 22rem;
+    background: #EDCDFC;
+}
+
+.display-image-profile{
+    width: 2rem;
+    height: 2rem;
+}
+
+.display-textbox.work {
+    width: 15rem;
+    height: 16rem;
+    background: #EDCDFC;
+    margin-top: 2rem;
+}
+
+.display-textbox.profile h2, .display-textbox.work h2 {
+    color: #7B309F;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.display-textbox.profile p, .display-textbox.work p {
+    color: #8324B0;
+    font-family: DM Sans;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.display-textbox.work p:nth-child(2) {
+    color: #281CB4;
+    font-family: Donegal One;
+    font-size: 1.3rem;
+}
+
+.display-textbox.work hr {
+    border: none;
+    height: 1px;
+    background: #556CE3;
+    width: 15rem;
+    margin: 1rem 0;
+}
+
+.display-right-section{
+    margin-top: 2rem;
+}
+
+.display-first-row, .display-second-row, .display-third-row, .display-fourth-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* .display-second-row-first-column{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 2rem;
+} */
+
+.display-textbox{
+    width: 7rem;
+    height: 12rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.display-image-heart-rate,
+.display-image-weight,
+.display-image-temperature,
+.display-image-cholesterol,
+.display-image-glucose{
+    width: 5rem;
+    height: 5rem;
+}
+
+.display-image-height,
+.display-image-blood{
+    width: 3rem;
+    height: 5rem;
+}
+
+.display-image-cholesterol{
+    width: 7rem;
+    height: 5rem;
+}
+
+.display-textbox.heart-rate h3,
+.display-textbox.weight h3,
+.display-textbox.temperature h3,
+.display-textbox.height h3,
+.display-textbox.cholesterol h3,
+.display-textbox.blood h3,
+.display-textbox.glucose h3{
+    color: #4d4a4a;
+    font-family: DM Sans;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.display-textbox.temperature p,
+.display-textbox.height p,
+.display-textbox.heart-rate p,
+.display-textbox.weight p,
+.display-textbox.cholesterol p,
+.display-textbox.blood p,
+.display-textbox.glucose p{
+    /* color: #ec0505; */
+    font-family: DM Sans;
+    font-size: 1rem;
+}
+
+.display-textbox.heart-rate,
+.display-textbox.cholesterol{
+    background: #c2c988;
+}
+
+.display-textbox.height,
+.display-textbox.glucose {
+   background: #e1b4b4;
+}
+
+.display-textbox.temperature{
+    background: #7d76e4;
+}
+
+
+.display-textbox.weight, 
+.display-textbox.blood{
+    background: #9DDAE3;
+}
+
+
+
+
+/*------------------------tab screen-----------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+
+.display-left-section{ 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.display-textbox.profile{
+    height: 24rem;
+}
+
+.display-textbox.work {
+    height: 18rem;
+}
+
+.display-textbox.profile h2, .display-textbox.work h2 {
+    font-size: 1.8rem;
+}
+
+.display-textbox.profile p, .display-textbox.work p {
+    font-size: 1.2rem;
+}
+
+.display-textbox.work p:nth-child(2) {
+    font-size: 1.4rem;
+}
+
+.display-textbox.work hr {
+    width: 14rem;
+}
+
+.display-first-row, .display-second-row, .display-third-row, .display-fourth-row{
+    gap: 3rem;
+}
+
+.display-textbox{
+    width: 15rem;
+    height: 18rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.display-image-heart-rate,
+.display-image-weight,
+.display-image-temperature{
+    width: 6rem;
+    height: 6rem;
+}
+
+.display-image-height{
+    width: 4rem;
+    height: 6rem;
+}
+
+.display-textbox.heart-rate h3,
+.display-textbox.weight h3,
+.display-textbox.temperature h3,
+.display-textbox.height h3,
+.display-textbox.glucose h3,
+.display-textbox.cholesterol h3,
+.display-textbox.blood h3{
+    font-size: 1.5rem;
+}
+
+.display-textbox.temperature p,
+.display-textbox.height p,
+.display-textbox.heart-rate p,
+.display-textbox.weight p,
+.display-textbox.glucose p,
+.display-textbox.cholesterol p,
+.display-textbox.blood p{
+    font-size: 1.5rem;
+}
+}
+
+/*------------------------desktop screen-----------------------------*/
+
+@media only screen and (min-width: 1200px) {
+    
+    .display-left-section{ 
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+    }
+    
+    .display-textbox.profile{
+        height: 27rem;
+        width: 20rem;
+    }
+    
+    .display-textbox.work {
+        height: 20rem;
+        width: 18rem;
+        margin-top: 4rem;
+    }
+    
+    .display-textbox.profile h2, .display-textbox.work h2 {
+        font-size: 2rem;
+    }
+    
+    .display-textbox.profile p, .display-textbox.work p {
+        font-size: 1.5rem;
+    }
+    
+    .display-textbox.work p:nth-child(2) {
+        font-size: 1.6rem;
+    }
+    
+    .display-textbox.work hr {
+        width: 17rem;
+    }
+
+    .display-textbox{
+        width: 25rem;
+        height: 15rem;
+    } 
+
+    .display-first-row, .display-second-row, .display-third-row, .display-fourth-row {
+        margin-left: 5rem;
+    }
+
+    .display-image-heart-rate,
+    .display-image-weight,
+    .display-image-temperature,
+    .display-image-cholesterol,
+    .display-image-glucose{
+        width: 8rem;
+        height: 8rem;
+        padding-right: 2rem;
+       
+    }
+    
+    .display-image-height{
+        width: 5rem;
+        height: 11rem;
+        padding-right: 3rem;
+    }
+    
+    .display-image-blood{
+        width: 5rem;
+        height: 8rem;
+        padding-right: 2rem;
+    }
+
+    .display-image-cholesterol{
+        width: 11rem;
+        height: 8rem;
+        padding: 1rem;
+    }
+
+
+
+
+    .display-textbox.heart-rate,
+    .display-textbox.weight,
+    .display-textbox.temperature,
+    .display-textbox.height,
+    .display-textbox.glucose,
+    .display-textbox.cholesterol,
+    .display-textbox.blood {
+    flex-direction: row;
+    }
+
+    .heart-rate,
+    .weight,
+    .temperature,
+    .cholesterol,
+    .glucose,
+    .blood,
+    .height{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .display-textbox.heart-rate h3,
+    .display-textbox.weight h3,
+    .display-textbox.temperature h3,
+    .display-textbox.height h3,
+    .display-textbox.glucose h3,
+    .display-textbox.cholesterol h3,
+    .display-textbox.blood h3{
+        font-size: 1.8rem;
+    }
+    
+    .display-textbox.temperature p,
+    .display-textbox.height p,
+    .display-textbox.heart-rate p,
+    .display-textbox.weight p,
+    .display-textbox.glucose p,
+    .display-textbox.cholesterol p,
+    .display-textbox.blood p{
+        font-size: 1.8rem;
+    }
+
+
+    }

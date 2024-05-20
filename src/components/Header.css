@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.header-container{
+  width: 100%;
+  height: 4rem;
+  background: #dab6fe;
+}
+.header {
+  /* height: 2rem; */
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  position: absolute;
+}
+
+.header-logo {
+  width: 4rem;
+  height: auto;
+  /* border: 1px solid #37144D; */
+}
+
+.header-texts{
+ margin-left: 0rem; 
+}
+
+.header-title {
+  color: #71217E;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: -16px;
+}
+
+.header-subtitle {
+  color: #4C0A63;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+/*--------------------------responsive---------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+  .header-container{
+    height: 9rem;
+  }
+
+  .header {
+    /* height: 3rem; */
+    width: 38rem;
+    margin: 0rem 2rem;
+    /* padding: 3rem; */
+  }
+  
+  .header-logo {
+    width: 9rem;
+  }
+  
+  .header-texts {
+    margin-left: 1rem;
+  }
+  
+  .header-title {
+    font-size: 2rem;
+  }
+  
+  .header-subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.3rem; 
+  }
+  
+} 
+
+@media only screen and (min-width: 1200px){
+  .header {
+    height: 8rem;
+    width: 70rem;
+  }
+  
+  .header-logo {
+    width: 9rem;
+  }
+
+  .header-texts {
+    margin-left: 1rem;
+    
+  } 
+
+  .header-title {
+    font-size: 2.8rem;
+  }
+  
+  .header-subtitle {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,204 @@
+.bp-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.bp-page-container{
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bp-heading {
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;  
+}
+
+.bp-heading h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.bp-page-content {
+    margin-top: 4rem; 
+    font-family: DM Serif Display;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+}
+
+.bp-steps-textbox {
+    display: flex; 
+    border: 1px solid #ccc; 
+    border-radius: 2rem; 
+    width: 20rem;
+    height: 18rem;
+    background: #C0AAFE;
+}
+
+.bp-step-image {
+    width: 6rem;
+    height: 12rem;
+    margin: 3rem 1rem 4rem 1rem;
+    border-radius: 1rem;
+}
+
+.bp-step-texts p {
+    color: #670B92;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.bp-video{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.bp-page-content h2{
+    color: #842EA2;
+    font-family: DM Serif Display;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 80%;
+}
+
+
+.bp-complete-guidence{
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 12rem;
+    background: #D9C5F4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.bp-complete-guidence p{
+    color: rgb(101, 3, 3);
+    text-align: center;
+    justify-content: center;
+}
+
+.bp-finish-test-btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #730505;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none; 
+}
+
+/*------------------tab--------------------*/
+
+@media only screen and (min-width: 768px){
+    
+    .bp-page-container{
+        margin-top: 6.5rem;
+    }
+
+    .bp-heading {
+        line-height: 4rem;   
+    }
+    
+    .bp-heading h1 {
+        font-size: 2.5rem;
+        margin-left:3rem;
+    }
+    
+    .bp-steps-textbox {
+        gap:0; 
+        border-radius: 1rem; 
+        align-items: center;
+        width: 30rem;
+        height: 28rem;
+    }
+    
+    .bp-step-image {
+        width: 9rem;
+        height: 18rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+    }
+
+     .bp-step-texts p{
+        font-size: 1.3rem;
+    }
+    
+    .bp-video{
+        width: 38rem;
+        height: 25rem;
+    }
+
+    .bp-page-content h2{
+        font-size: 1.3rem;
+    }
+
+    .bp-complete-guidence{
+        width: 30rem;
+        height: 17rem;
+    }
+    
+    .bp-complete-guidence p{
+      font-size: 1.5rem;
+    }
+    
+    .bp-finish-test-btn{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    } 
+   
+    
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .bp-page-container{
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .bp-heading{
+        line-height: 4rem;  
+        width: 100%; 
+    }
+    
+    .bp-heading h1 {
+        font-size: 2.5rem;
+        margin-left:5rem;
+    }
+    
+    .bp-page-content {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .bp-steps-textbox {
+        width: 36rem;
+        height: 26rem;
+    }
+    
+    .bp-step-image {
+        width: 9rem;
+        height: 18rem;
+        padding: 1rem;
+    }
+
+    .bp-step-texts p {
+        font-size: 1.5rem;
+    }
+    
+    .bp-complete-guidence{
+        width: 36rem;
+        height: 15rem;
+    }
+}

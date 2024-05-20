@@ -1,0 +1,226 @@
+.weight-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.weight-page-container{
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.weight-heading {
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;   
+}
+
+.weight-heading h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.weight-page-content {
+    margin-top: 4rem;
+    margin-left: 0; 
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+}
+
+.weight-steps-textbox {
+    display: flex; 
+    gap: 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: 2rem;  
+    width: 20rem;
+    height: 22rem;
+    background: #C0AAFE;
+}
+
+.weight-step-image {
+    width: 5rem;
+    height: 12rem;
+    margin: 4.5rem 0.3rem 4rem 1rem;
+    border-radius: 1rem;
+}
+
+.weight-page-content p{
+    color: #842EA2;
+    font-family: DM Serif Display;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.weight-step-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.weight-step-texts p {
+    color: #670B92;
+    font-size: 1rem;
+}
+
+.weight-video{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.weight-complete-guidence{
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 12rem;
+    background: #D9C5F4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.weight-complete-guidence p{
+    color: rgb(101, 3, 3);
+    text-align: center;
+    justify-content: center;
+}
+
+.weight-finish-test-btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #730505;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none; 
+}
+
+/*-----------------------tab---------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+.weight-page-container{
+    margin-top: 6.5rem;
+}
+
+.weight-heading {
+    width: 100%;
+    line-height: 4rem;    
+}
+
+.weight-heading h1 {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+
+.weight-steps-textbox {
+    gap:0; 
+    border-radius: 1rem; 
+    align-items: center;
+    width: 30rem;
+    height: 28rem;
+}
+
+.weight-step-image {
+    width: 8rem;
+    height: 20rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.weight-page-content p{
+    font-size: 1.3rem;
+}
+
+.weight-step-texts {
+    margin-left: 1rem;
+}
+
+.weight-step-texts p {
+    font-size: 1.3rem;
+}
+    
+.weight-video{
+    width: 38rem;
+    height: 25rem;
+}
+
+.weight-complete-guidence{
+    width: 30rem;
+    height: 17rem;
+}
+
+.weight-complete-guidence p{
+  font-size: 1.5rem;
+}
+
+.weight-finish-test-btn{
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}  
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .weight-page-container{
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .weight-heading {
+        width: 100%;
+        line-height: 4rem;    
+    }
+    
+    .weight-heading h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .weight-page-content {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .weight-steps-textbox {
+        align-items: center;
+        width: 45rem;
+        height: 30rem;
+    }
+    
+    .weight-step-image {
+        width: 10rem;
+        height: 20rem;
+    }
+    
+    .weight-page-content p{
+        font-size: 1.5rem;
+    }
+    
+    .weight-step-texts {
+        margin-left: 1rem;
+    }
+
+    .weight-step-texts p {
+        font-size: 1.5rem;
+    }
+    
+    .weight-complete-guidence{
+        width: 45rem;
+        height: 15rem;
+    }
+
+    .weight-video{
+        width: 45rem;
+        height: 30rem;
+    }
+}

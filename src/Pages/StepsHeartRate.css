@@ -1,0 +1,240 @@
+.heart-rate-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.heart-rate-page-container{
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.heart-rate-heading {
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;    
+}
+
+.heart-rate-heading h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.heart-rate-page-content {
+    margin-top: 4rem;
+    margin-left: 0; 
+}
+
+.heart-rate-page-left-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 3rem; 
+    font-family: DM Serif Display;
+}
+
+.heart-rate-steps-textbox {
+    gap: 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: 2rem; 
+    width: 20rem;
+    height: 26rem;
+    background: #C0AAFE;
+}
+
+.heart-rate-step-image {
+    width: 14rem;
+    height: 8rem;
+    margin: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+}
+
+.heart-rate-page-left-section h2{
+    color: #842EA2;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+.heart-rate-step-texts p {
+    color: #670B92;
+    font-size: 1rem;
+    font-family: 'DM Serif Display', serif;
+    margin: 0 1.5rem 1rem 2rem;
+}
+ 
+.ecg-video{
+    width: 20rem;
+
+}
+
+.ecg-complete-guidence{
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 12rem;
+    background: #D9C5F4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.ecg-complete-guidence p{
+    color: rgb(101, 3, 3);
+    text-align: center;
+    justify-content: center;
+}
+
+.ecg-finish-test-btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #730505;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none; 
+}
+
+/*-----------------------------tab-------------------------------*/
+
+@media only screen and (min-width: 768px){
+
+    .heart-rate-page-container{
+        margin-top: 6.5rem;
+    }
+    
+    .heart-rate-heading {
+        line-height: 4rem;    
+    }
+    
+    .heart-rate-heading h1 {
+        font-size: 2.5rem;
+        margin-left:3rem;
+    }
+    
+    .heart-rate-page-content {
+        flex-direction: column;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .heart-rate-page-left-section {
+        gap: 3rem; 
+        margin-left: 0;
+        align-items: center;
+    }
+    
+    .heart-rate-steps-textbox {
+        gap:0; 
+        border-radius: 1rem; 
+        align-items: center;
+        width: 30rem;
+        height: 35rem;
+    }
+    
+    .heart-rate-step-image {
+        width: 20rem;
+        height: 12rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    
+    .heart-rate-page-left-section h2{
+        font-size: 1.3rem;
+        margin-left: 2rem;
+        width: 80%;
+        font-weight: 400;
+    }
+    
+    .heart-rate-step-texts p {
+        font-size: 1.3rem;
+        margin: 0 0 1rem 3rem;
+    }
+
+    .ecg-video{
+        width: 38rem;
+        height: 25rem;
+    }
+    
+    .ecg-complete-guidence{
+        width: 30rem;
+        height: 17rem;
+    }
+    
+    .ecg-complete-guidence p{
+      font-size: 1.5rem;
+    }
+    
+    .ecg-finish-test-btn{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .heart-rate-page-container{
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .heart-rate-heading {
+        line-height: 4rem;    
+    }
+    
+    .heart-rate-heading h1 {
+        font-size: 2.5rem;
+        margin-left:5rem;
+    }
+    
+    .heart-rate-page-content {
+        flex-direction: row;
+        margin-top: 4rem;
+    }
+    
+    .heart-rate-page-left-section {
+        gap: 3rem; 
+        margin-right: 3rem;
+    }
+    
+    .heart-rate-steps-textbox {
+        display: flex; 
+        gap:0; 
+        border-radius: 2rem; 
+        align-items: center;
+        width: 36rem;
+        height: 26rem;
+    }
+    
+    .heart-rate-step-image {
+        width: 10rem;
+        height: 16rem;
+        border-radius: 1.5rem;
+        margin: 0 1rem 0 1rem;
+    }
+    
+    .heart-rate-page-left-section h2{
+        font-size: 1.5rem;
+    }
+    
+    .heart-rate-step-texts p {
+        font-size: 1.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    .ecg-complete-guidence{
+        width: 36rem;
+        height: 15rem;
+    }
+}

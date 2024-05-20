@@ -1,0 +1,213 @@
+.cholesterol-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.cholesterol-container{
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cholesterol-heading{
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;   
+}
+
+.cholesterol-heading h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.cholesterol-content {
+    margin-top: 4rem; 
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+}
+
+.cholesterol-steps-textbox {
+    gap: 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: 2rem; 
+    width: 20rem;
+    height: 27rem;
+    background: #C0AAFE;
+}
+
+.cholesterol-step-image {
+    width: 14rem;
+    height: 8rem;
+    margin: 2rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+}
+
+.cholesterol-content h2{
+    color: #670B92;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+
+.cholesterol-step-texts p {
+    color: #670B92;
+    font-size: 1rem;
+    margin: 0 1.5rem 1rem 2rem;
+}
+
+.cholesterol-video{
+    width: 20rem;
+    border-radius: 1rem;
+}
+.cholesterol-complete-guidence{
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 12rem;
+    background: #D9C5F4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cholesterol-complete-guidence p{
+    color: rgb(101, 3, 3);
+    text-align: center;
+    justify-content: center;
+}
+
+.cholesterol-finish-test-btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #730505;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none; 
+}
+
+
+/*------------------tab--------------------*/
+
+@media only screen and (min-width: 768px){
+
+    .cholesterol-container{
+        margin-top: 6.5rem;
+    }
+    
+    .cholesterol-heading{
+        width: 100%;
+        line-height: 4rem;    
+    }
+    
+    .cholesterol-heading h1 {
+        font-size: 2.5rem;
+        margin-left:3rem;
+    }
+    
+    .cholesterol-steps-textbox {
+        gap:0; 
+        border-radius: 1rem; 
+        align-items: center;
+        width: 30rem;
+        height: 37rem;
+    }
+    
+    .cholesterol-step-image {
+        width: 20rem;
+        height: 11rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    
+    .cholesterol-content h2{
+        font-size: 1.5rem;
+    }
+    
+    .cholesterol-step-texts p {
+        font-size: 1.5rem;
+        margin: 0 3rem 1rem 3rem;
+    }
+
+    .cholesterol-video{
+        width: 38rem;
+        height: 25rem;
+    }
+    .cholesterol-complete-guidence{
+        width: 30rem;
+        height: 17rem;
+    }
+    
+    .cholesterol-complete-guidence p{
+      font-size: 1.5rem;
+    }
+    
+    .cholesterol-finish-test-btn{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }  
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .cholesterol-container{
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .cholesterol-heading{
+        width: 100%;
+        line-height: 4rem;    
+    }
+    
+    .cholesterol-heading h1 {
+        font-size: 2.5rem;
+        margin-left:5rem;
+    }
+    
+    .cholesterol-content {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .cholesterol-steps-textbox {
+        display: flex; 
+        gap:0; 
+        border-radius: 2rem; 
+        align-items: center;
+        width: 36rem;
+        height: 23rem;
+    }
+    
+    .cholesterol-step-image {
+        width: 7rem;
+        height: 13rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        margin: 0 1rem 0 1rem;
+    }
+    
+    .cholesterol-content h2{
+        font-size: 1.5rem;
+    }
+    
+    .cholesterol-step-texts p {
+        font-size: 1.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .height-complete-guidence{
+        width: 36rem;
+        height: 15rem;
+    }
+}

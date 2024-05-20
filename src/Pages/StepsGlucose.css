@@ -1,0 +1,174 @@
+.glucose-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.glucose-page-container {
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.glucose-heading-bg {
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;
+}
+
+.glucose-heading-bg h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.glucose-page-content {
+    margin-top: 4rem; 
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+}
+
+
+.glucose-test-first-image {
+    border-radius: 2rem;
+}
+
+.glucose-test-first-image{
+    width: 20rem;
+    height: 18rem;
+}
+
+.glucose-video {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.glucose-page-content p {
+    color: #842EA2;
+    font-family: DM Serif Display;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.glucose-complete-guidence{
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 12rem;
+    background: #D9C5F4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.glucose-complete-guidence p{
+    color: rgb(101, 3, 3);
+    text-align: center;
+    justify-content: center;
+}
+
+.glucose-finish-test-btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #730505;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none; 
+}
+
+
+/*------------------tab--------------------*/
+
+@media only screen and (min-width: 768px) { 
+
+    .glucose-page-container {
+        margin-top: 6.5rem;
+    }
+
+    .glucose-heading-bg {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .glucose-heading-bg h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .glucose-test-first-image {
+        border-radius: 1rem;
+        width: 30rem;
+        height: 28rem;
+    }
+
+    .glucose-video{
+        width: 38rem;
+        height: 25rem;
+    }
+
+    .glucose-page-content p {
+        font-size: 1.3rem;
+    }
+    
+    .glucose-complete-guidence{
+        width: 30rem;
+        height: 17rem;
+    }
+    
+    .glucose-complete-guidence p{
+      font-size: 1.5rem;
+    }
+    
+    .glucose-finish-test-btn{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }  
+    
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .glucose-page-container {
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .glucose-heading-bg {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .glucose-heading-bg h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .glucose-page-content {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .glucose-test-first-image {
+        border-radius: 2rem;
+        width: 36rem;
+        height: 25rem;
+    }
+    
+    .glucose-page-content p {
+        font-size: 1.5rem;
+    }
+    
+    .glucose-complete-guidence{
+        width: 36rem;
+        height: 15rem;
+    }
+}

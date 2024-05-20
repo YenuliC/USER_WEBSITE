@@ -1,0 +1,221 @@
+.temperature-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.temperature-page-container {
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.temperature-heading {
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;
+}
+
+.temperature-heading h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.temperature-page-content {
+    margin-top: 4rem; 
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+}
+
+.temperature-steps-textbox {
+    display: flex; 
+    gap: 1rem; 
+    border-radius: 2rem; 
+    width: 20rem;
+    height: 14rem;
+    background: #C0AAFE;
+    align-items: center;
+}
+
+.temperature-step-image {
+    width: 8rem;
+    height: 10rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.temperature-step-texts p{
+    color: #670B92;
+    font-size: 1rem;
+}
+
+
+.temperature-page-content p {
+    color: #842EA2;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+    margin: 0 ;
+}
+  
+.temperature-complete-guidence{
+    margin-bottom: 3rem;
+    width: 20rem;
+    height: 12rem;
+    background: #D9C5F4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.temperature-complete-guidence p{
+    color: rgb(101, 3, 3);
+    text-align: center;
+    justify-content: center;
+}
+
+.temperature-finish-test-btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #730505;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none; 
+    margin-top: 1.5rem;
+}
+
+.temperature-video{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+/*------------------tab--------------------*/
+
+@media only screen and (min-width: 768px) { 
+
+    .temperature-page-container {
+        margin-top: 6.5rem;
+    }
+
+    .temperature-heading-bg {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .temperature-heading-bg h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .temperature-steps-textbox {
+        gap:0; 
+        border-radius: 1rem; 
+        align-items: center;
+        width: 30rem;
+        height: 18rem;
+    }
+    
+    .temperature-step-image {
+        width: 15rem;
+        height: 14rem;
+        margin: 2rem;
+    }
+    
+    .temperature-step-texts p{
+        font-size: 1.5rem;
+    }
+
+    .temperature-page-content p {
+        font-size: 1.3rem;
+    }
+    
+    .temperature-video{
+        width: 38rem;
+        height: 25rem;
+    }
+
+    .temperature-complete-guidence{
+        width: 30rem;
+        height: 17rem;
+    }
+    
+    .temperature-complete-guidence p{
+      font-size: 1.5rem;
+    }
+    
+    .temperature-finish-test-btn{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }   
+    
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .temperature-page-container {
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .temperature-heading-bg {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .temperature-heading-bg h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .temperature-page-content {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .temperature-page-left-section {
+        gap: 3rem; 
+        margin-right: 3rem;
+    }
+     
+    .temperature-steps-textbox {
+        width: 40rem;
+        height: 25rem;
+    }
+    
+    .temperature-step-image {
+        width: 24rem;
+        height: 18rem;
+    }
+    
+    .temperature-step-texts p{
+        font-size: 1.5rem;
+    }
+    
+    .temperature-page-content p {
+        font-size: 1.5rem;
+    }
+    
+    .temperature-complete-guidence{
+        width: 40rem;
+        height: 15rem;
+    }
+
+    .temperature-finish-test-btn{
+        margin-top: 1.5rem;
+    }
+
+    .temperature-video{
+            width: 40rem;
+            height: 25rem;
+      }
+      
+}

@@ -1,0 +1,170 @@
+.payment-page{
+  display: flex;
+  flex-direction: column;
+}
+.payment-container {
+  position: relative;
+  text-align: left;
+  font-family: 'poppins';
+  width: 80%;
+  max-width:1200px;
+  margin: 13rem 1rem 3rem 3rem;
+}
+
+.payment-heading {
+  margin-bottom: 2rem;
+  color: #740A8F;
+  font-family: 'poppins';
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.payment-textbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 0.5rem;
+  
+}
+
+.payment-textbox {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #61206C;
+  background: #FFF;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 0.8rem;
+  
+}
+
+.checkout-button {
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background:#DBBBF4;
+  color: #8429A4;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.checkout-button:hover {
+  background-color: #6B217F; 
+}
+
+.payment-error-message{
+  position: absolute;
+  left: 1rem;
+  color: #ff0000;
+  font-size: 0.8rem;
+  margin-top: 3.5rem;
+}
+
+.payment-required-error-message{
+    color: #fe0808; 
+    font-size: 0.8rem;
+    margin: 2rem 1rem;
+}
+
+/*------------------tab responsive--------------------*/
+
+@media (min-width: 768px) {
+
+  .payment-container {
+    width: 80%;
+    margin: 16rem 0 5rem 3rem; 
+  
+  }
+  
+  .payment-heading {
+    font-size: 3rem;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+  }
+  
+  .payment-textbox-container {
+    gap: 1.5rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .payment-textbox {
+    width: 25rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    
+  }
+  
+  .checkout-button {
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-left: 15rem;
+  }
+
+  .payment-error-message{
+    left: 8.5rem;
+    font-size: 1.2rem;
+    margin-top: 4.5rem;
+  }
+  
+  .payment-required-error-message{
+      font-size: 1.2rem;
+      margin: 3rem 8.5rem;
+  }
+  
+}
+
+/*------------------desktop responsive--------------------*/
+
+@media (min-width: 1200px) {
+
+  .payment-container {
+    width: 70%;
+    margin: 20rem 0rem 7rem 13rem; 
+  }
+  
+  .payment-heading {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
+  
+  .payment-textbox-container {
+    gap: 2rem;
+    margin-left: 5rem;
+  }
+  
+  .payment-textbox {
+    width: 35rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .checkout-button {
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    margin-left: 20rem;
+  }
+
+  .payment-error-message{
+    left: 5.5rem;
+    font-size: 1.5rem;
+    margin-top: 6rem;
+  }
+  
+  .payment-required-error-message{
+      font-size: 1.5rem;
+      margin: 4rem 5.5rem;
+  }
+}

@@ -1,0 +1,122 @@
+.report-generate-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+
+}
+
+.report-generate-box {
+    height: auto; /* Adjusted height */
+    width: 100%;
+    max-width: 40rem; /* Adjusted max-width */
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.report-generate-box-heading {
+    width: 100%;
+    height: 3rem;
+    color: #8511A2;
+    font-family: DM Sans;
+    font-size: 1.9rem;
+    font-weight: 400;
+    background: #E0F9FF;
+}
+
+.report-generate-box-content {
+    border-radius: 1rem;
+    background: #FFF;
+    width: 100%;
+    padding: 1rem; /* Added padding for better spacing */
+}
+
+.report-generate-box-content p {
+    margin: 8px 0;
+    color: #E4ADF8;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.report-generate-button-container {
+    display: flex;
+    justify-content: space-evenly; /* Adjusted to space-evenly */
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.generate-copy-section {
+    color: #1510F7;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.5rem; /* Increased font size */
+    font-weight: 400;
+    margin-top: 0.1rem;
+}
+
+.generate-copy-btn {
+    width: 12rem; /* Increased button width */
+    height: 4rem; /* Increased button height */
+    border-radius: 1.2rem; /* Increased border-radius */
+    background: #E76BF1;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1rem; /* Increased font size */
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.generate-copy-btn span {
+    margin-right: 0.5rem; /* Added spacing between text and icon */
+}
+
+.generate-hand-icon {
+    width: 1.5rem; /* Increased icon size */
+    height: auto;
+}
+
+.generate-download-section,
+.generate-email-section {
+    color: #1510F7;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.5rem; /* Increased font size */
+    font-weight: 400;
+}
+
+.generate-email-section {
+    margin-top: 0.1rem;
+}
+
+.generate-download-btn,
+.generate-email-btn {
+    width: 12rem; /* Increased button width */
+    height: 4rem; /* Increased button height */
+    border-radius: 1.2rem; /* Increased border-radius */
+    background: #E76BF1;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1rem; /* Increased font size */
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.generate-download-btn span,
+.generate-email-btn span {
+    margin-right: 0.5rem; /* Added spacing between text and icon */
+}
+
+.generate-hand-icon {
+    width: 1.5rem; /* Increased icon size */
+    height: auto;
+}
+

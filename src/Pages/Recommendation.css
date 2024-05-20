@@ -1,0 +1,119 @@
+/* Recommendation.css */
+.recommendation-page{
+    display: flex;
+    flex-direction: column;
+}
+/* Container styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* User information styles */
+.user-details,
+.user-info,
+.recommendation,
+.health-data,
+.data-card {
+    background-color: #fff; /* White */
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.user-details:hover,
+.user-info:hover,
+.recommendation:hover,
+.health-data:hover,
+.data-card:hover {
+    background-color: #e6e6e6; /* Light Purple */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dcd6f7; /* Light Purple */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styles */
+h2 {
+    color: #333;
+}
+
+/* User information styles */
+.user-info p {
+    margin: 5px 0;
+}
+
+/* Recommendation styles */
+.recommendation p {
+    margin-bottom: 10px;
+}
+
+/* Health data styles */
+.health-data p {
+    margin-bottom: 5px;
+}
+
+/* Temperature, Heart Rate, Weight, Height styles */
+.data-card p {
+    margin: 5px 0;
+}
+
+.temperature-level,
+.heart-rate-level,
+.weight-level,
+.height-level {
+    font-weight: bold;
+    color: #333;
+}
+.bmi-meter {
+    height: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .bmi-progress {
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .bmi-label {
+    padding-right: 5px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .getBMIColor {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .bmi-label {
+    color: white;
+  }
+  
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
